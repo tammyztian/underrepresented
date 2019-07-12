@@ -104,7 +104,7 @@ const Index = () => (
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
+          {/*<Avatar src={avatar} alt="John Doe" />*/}
           <AboutSub>
             The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
             Emoji into my speech to better express myself. Winky face.
@@ -122,15 +122,17 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+
+            Contact information here
+            {/*Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}*/}
+            {/*<a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}*/}
+            {/*<a href="https://www.instagram.com/lekoarts.de/">Instagram</a>*/}
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">GitHub Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
+          {/*&copy; 2019 by Gatsby Starter Portfolio Cara.{' '}*/}
+          {/*<a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">GitHub Repository</a>. Made by{' '}*/}
+          {/*<a href="https://www.lekoarts.de">LekoArts</a>.*/}
         </Footer>
       </Contact>
     </Parallax>
